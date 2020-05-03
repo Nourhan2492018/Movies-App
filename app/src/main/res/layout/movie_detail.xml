@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242121"
+    tools:context=".ExtraClassMovie.DetailOfMovie">
+
+    <ImageView
+        android:id="@+id/image_View_detail"
+        android:layout_width="274dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="50dp"
+        android:background="#090808"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_View_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="title"
+        android:textColor="#76C1F5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_View_detail">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_View_detail_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:text="original_title"
+        android:textColor="#76C1F5"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_View_detail_title">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_detail_overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="overview"
+        android:textColor="#76C1F5"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_View_detail_origin">
+
+    </TextView>
+
+    <com.github.ivbaranov.mfb.MaterialFavoriteButton
+        android:id="@+id/favorite_button"
+        android:layout_width="98dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="316dp"
+        android:background="#76C1F5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.github.ivbaranov.mfb.MaterialFavoriteButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

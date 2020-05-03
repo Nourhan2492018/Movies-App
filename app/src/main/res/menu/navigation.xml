@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/romatic_icon"
+        android:icon="@drawable/s4"
+        android:title="Romatic"
+       >
+    </item>
+    <item
+        android:id="@+id/action_icon"
+        android:icon="@drawable/c4"
+        android:title="Action"
+        >
+
+    </item>
+    <item
+        android:id="@+id/upcoming_icon"
+        android:icon="@drawable/z5"
+        android:title="UpComing"
+        >
+    </item>
+    <item
+        android:id="@+id/favorite_icon"
+        android:icon="@drawable/z2"
+        android:title="Favorite"
+        >
+    </item>
+
+</menu>
